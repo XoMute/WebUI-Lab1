@@ -19,12 +19,12 @@ const routes = [
   {
     path: "/home",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
     path: "/posts/:postId",
     name: "Blog Post",
-    component: BlogPost
+    component: BlogPost,
   },
   {
     path: "/create",
@@ -50,7 +50,7 @@ const routes = [
     path: "/profile",
     name: "User Profile",
     component: UserProfile,
-  }
+  },
 ];
 
 const router = createRouter({

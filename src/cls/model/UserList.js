@@ -22,7 +22,7 @@ export default class UserList {
     if (userId === -1) {
       return this.users[0];
     }
-    return this.users.find(user => user.id === userId);
+    return this.users.find((user) => user.id === userId);
   }
 
   findByUsername(username) {

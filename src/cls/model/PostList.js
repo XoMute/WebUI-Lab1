@@ -6,11 +6,11 @@ export default class PostList {
   }
 
   _getPostIndex(postId) {
-    return this.posts.findIndex(post => post.id === postId);
+    return this.posts.findIndex((post) => post.id === postId);
   }
 
   findById(postId) {
-    return this.posts.find(post => post.id === postId);
+    return this.posts.find((post) => post.id === postId);
   }
 
   addPost(postObj) {
