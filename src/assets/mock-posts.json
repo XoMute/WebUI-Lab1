@@ -1,0 +1,21 @@
+[
+    {
+        "title": "First post",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus et dui eget volutpat. Quisque viverra ullamcorper magna, sit amet aliquam nunc placerat ac.",
+        "content": "Pellentesque dui nisl, fermentum vel suscipit a, pellentesque vel sem. Proin viverra nisi sit amet diam euismod, ut venenatis lectus dignissim. Quisque id laoreet erat. Nam tempus felis nec urna viverra dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet efficitur urna. Nunc blandit velit ac euismod rhoncus. Sed tempor urna ac viverra dictum. Vivamus sagittis pulvinar faucibus. Curabitur vehicula sit amet ex a pretium. Mauris sed malesuada elit, vitae sagittis arcu. Sed facilisis, nunc nec porttitor hendrerit, odio tortor lobortis augue, non mattis leo felis a nisi. Duis dignissim odio erat, in lacinia tellus pretium id. Etiam a dignissim ante.",
+        "authorId": -1,
+        "created": "19:44:26 01.01.2021",
+        "comments": [ 
+            {
+                "id": 1,
+                "name": "Some Name",
+                "content": "Some good comment"
+            },
+            {
+                "id": 2,
+                "name": "Other Name",
+                "content": "Some criticizing comment"
+            }
+        ]
+    }
+]
