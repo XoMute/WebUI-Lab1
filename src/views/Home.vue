@@ -13,9 +13,5 @@ export default {
   components: {
     PostList,
   },
-  methods: {
-    addPost() {},
-    deletePost() {},
-  },
 };
 </script>

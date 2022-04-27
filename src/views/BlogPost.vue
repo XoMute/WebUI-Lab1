@@ -22,7 +22,7 @@
       <div class="col-md-6 text-right">
         <h4>Author: {{ this.author.firstname }} {{ this.author.lastname }}</h4>
         <div v-if="this.isAuthor()">
-          <button type="button" v-on:click="this.delete()">Delete</button>
+          <button type="button" id="deleteButton" v-on:click="this.delete()">Delete</button>
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
         >
         </textarea>
       </div>
-      <button type="button" v-on:click="this.addComment()">Add comment</button>
+      <button type="button" id="commentButton" v-on:click="this.addComment()">Add comment</button>
     </div>
   </div>
 </template>
