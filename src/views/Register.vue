@@ -57,6 +57,11 @@ export default {
         return;
       }
       if (this.input.username !== "" && this.input.password !== "") {
+        if (this.$store.state.users.findByUsername(this.input.username)) {
+          console.log(`User with username '${this.input.username}' already exists!`);
+          this.$router.push("/register");
+          return;
+        }
         console.log("Adding user");
         this.$store.dispatch("ADD_USER", this.input);
         this.$router.push("/login");

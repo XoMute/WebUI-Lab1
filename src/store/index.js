@@ -22,8 +22,8 @@ export default createStore({
     ADD_COMMENT: (state, { postId, comment }) => {
       state.blogPosts.addComment(postId, comment);
     },
-    ADD_USER: (state, user) => {
-      state.users.addUser(user);
+    ADD_USER: (state, userObj) => {
+      state.users.addUser(userObj);
     },
     UPDATE_USER: (state, user) => {
       state.users.updateUser(state.currentUser.id, user);

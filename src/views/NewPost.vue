@@ -50,8 +50,8 @@ export default {
         console.log("Title must be set");
         return;
       }
-      const content = this.$refs.editor.getHTML();
-      if (!content || content === "") {
+      const content = this.$refs.editor.getText();
+      if (!content || content.trim().length === 0) {
         console.log("Post content must be set");
         return;
       }
